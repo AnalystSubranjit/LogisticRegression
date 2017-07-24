@@ -1,0 +1,39 @@
+
+CHURN MANAGEMENT
+
+The objective of the project is to develop a model for predicting churns at a fictius telecom company.
+
+Data for the case are available in csv format. The data are a scaled down version of the full database
+generously donated by an anonymous wireless telephone company. There are still 71,047 customers
+in the database, and 75 potential predictors. 
+
+The data are available in one data file with 71,047 rows that combines the calibration and validation
+customers. “calibration” database consisting of 40,000 customers and a “validation” database
+consisting of 31,047 customers. Each database contained (1) a “churn” variable signifying whether
+the customer had left the company two months after observation, and (2) a set of 75 potential
+predictor variables that could be used in a predictive churn model. Following usual model
+development procedures, the model would be estimated on the calibration data and tested on the
+validation data. At the time, churn rate was about 2% per month. However, data set has
+been created the calibration database so that it contained roughly 50% churners. The validation data
+contained 2% churners.
+
+project2.R is the code written in R language.
+
+Proactive Attrition Management-Logistic Regression Case Study.csv is the dataset in csv format and 
+contains 71,047 observations and 75 variables.
+
+descriptive_analysis.xlsx gives the descriptive analysis of each variable in the dataset that includes
+ their type, count, number of missing values, values of each variable at 1, 5, 10, 25, 50, 75, 90, 95 
+percentile along with minimum and maximum values, and giving outliers.
+
+EigenValues.xlsx gives the eigen values for the numerical variables in the data to find the number of 
+factors.
+
+factor_analysis_loadingstable.xlsx gives the loadings table for variable reduction.
+
+result_decileordering_development_sample.xlsx and result_decileordering_validation_sample.xlsx gives 
+rank ordering table for validation of the model.
+
+KS_GainChart_LiftChart_validation.xlsx gives KS statistics to validate our model. It also shows gain 
+chart, bar chart and lift chart for our model.
+
